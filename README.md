@@ -1,50 +1,92 @@
-# Welcome to your Expo app 👋
+# Browse Sports Venues
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A simple Expo React Native app to browse sports venues, filter by sport, sort results, and trigger booking alerts.
 
-## Get started
+## Tech Stack
 
-1. Install dependencies
+- React Native (Expo)
+- Expo Router
+- Functional components with React hooks (`useState`, `useMemo`)
 
-   ```bash
-   npm install
-   ```
+## Features
 
-2. Start the app
+- Venue list rendered using `FlatList`
+- Venue details shown:
+  - Name
+  - Sport
+  - Rating
+  - Price
+- Sport filter:
+  - All
+  - Football
+  - Badminton
+- Booking action:
+  - `Book Now` button
+  - Alert message: `Booking for {venue name}`
+- Bonus sorting:
+  - Price (Low to High)
+  - Rating (High to Low)
 
-   ```bash
-   npx expo start
-   ```
+## Sample Venue Data
 
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
+```json
+[
+  {
+    "id": 1,
+    "name": "Elite Turf Arena",
+    "sport": "Football",
+    "rating": 4.5,
+    "location": "Delhi",
+    "price": 1200
+  },
+  {
+    "id": 2,
+    "name": "Smash Badminton Club",
+    "sport": "Badminton",
+    "rating": 4.2,
+    "location": "Noida",
+    "price": 500
+  }
+]
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+## Run Locally
 
-## Learn more
+1. Install dependencies:
 
-To learn more about developing your project with Expo, look at the following resources:
+```bash
+npm install
+```
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+2. Start Expo:
 
-## Join the community
+```bash
+npm start
+```
 
-Join our community of developers creating universal apps.
+3. Open on your preferred target:
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+- Android emulator/device
+- iOS simulator/device
+- Web
+
+## Screenshots
+
+### Mobile View 1
+
+![Mobile View 1](./screenshots/Screenshot%202026-04-18%20125328.png)
+
+### Mobile View 2
+
+![Mobile View 2](./screenshots/Screenshot%202026-04-18%20125422.png)
+
+### Web View
+
+![Web View](./screenshots/Screenshot%202026-04-18%20125439.png)
+
+## Submission Checklist
+
+- Push code to GitHub
+- Attach screenshots
+- Email to `ashi.ofside@gmail.com`
+- Keep `play@ofside.in` in CC
