@@ -83,10 +83,3 @@ npm start
 ### Web View
 
 ![Web View](./screenshots/Screenshot%202026-04-18%20125439.png)
-
-## Submission Checklist
-
-- Push code to GitHub
-- Attach screenshots
-- Email to `ashi.ofside@gmail.com`
-- Keep `play@ofside.in` in CC
