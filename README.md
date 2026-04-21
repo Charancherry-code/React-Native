@@ -1,6 +1,6 @@
 # Browse Sports Venues
 
-A simple Expo React Native app to browse sports venues, filter by sport, sort results, and trigger booking alerts.
+A simple Expo React Native app to browse sports venues, filter by sport, sort results, and trigger booking alerts...
 
 ## Tech Stack
 
